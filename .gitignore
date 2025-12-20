@@ -11,8 +11,6 @@ out/
 build/
 
 # Env files
-.env
-.env.*
 !.env.example
 
 # Logs
@@ -25,7 +23,6 @@ pids
 *.pid.lock
 
 # Editor junk
-.vscode/
 .idea/
 *.swp
 .DS_Store
@@ -63,3 +60,4 @@ data/*.db
 
 # Editor backup files
 *~
+config.bat
